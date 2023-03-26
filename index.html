@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<script src="./js/new_file.js" type="text/javascript" charset="utf-8"></script>
-		<title>IAE v0.2</title>
+		<title>IAGEN</title>
 		<title></title>
 	</head>
 	<body>
@@ -11,12 +11,11 @@
 			<p>></p>
 
 			<div id="out_mode">
-				<span class="mode" style="background-color: #a1a1a1;"> MODE </span>
-				<span class="mode modehover" onclick="out(2)"> ITEM </span>
+				<span class="mode modehover" onclick="out(2)">ITEM</span>
 				<span class="mode modehover" onclick="out(3)">CATEGORIES</span>
 				<span class="mode modehover" onclick="out(8)">FileName</span>
 				<span class="mode modehover" onclick="out(4)">Only
-					CATEGORIES</span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+					CATEGORIES</span>
 				<span class="mode2">Parameter<input id="out_parameter" style="width: 300px;"></span>
 			</div>
 			<div id="out3div">
@@ -47,43 +46,26 @@
 					<div id="test">
 						<input type="file" id="fileMutiply" name="files" multiple="multiple">
 					</div>
-					<p>点击或拖拽上传</p>
-					<p>只能往这里放</p>
+					<p>拖拽文件或点击这里上传</p>
+					<p>Drag and drop the files or </p>
+					<p>Click here to upload</p>
 
 				</div>
 
 
 				<div id="filelist">
-					<p style="font-size: 20px;font-weight: 800;"> 关于</p>
-					<a href="https://github.com/HaiXi2912/iae">GitHub</a>
+					<p>&emsp;</p>
 					<hr>
-					<p style="font-size: 20px;font-weight: 600;text-align: left;"> 当前功能</p>
-					<p style="font-size: 16px;text-align: left;">&emsp;根据上传的文件名生成配置</p>
-					<p style="font-size: 16px;text-align: left;">&emsp;如果不启用后缀</p>
-					<p style="font-size: 16px;text-align: left;">&emsp;将自动获取物品ID、名称、原型</p>
-					<p style="font-size: 16px;text-align: left;">&emsp;根据上传的文件名生成分类</p>
-					<p style="font-size: 16px;text-align: left;">&emsp;根据上传的文件名生成改名bat</p>
-					<p style="font-size: 16px;text-align: left;">&emsp;可将物品配置通过关键词，保留id</p>
+					<p style="font-size: 20px;font-weight: 800;"> 关于&emsp;&emsp;&emsp;About</p>
+					<a href="https://github.com/HaiXi2912/iae">Original Author GitHub</a>
+					<p>
+					<a href="https://github.com/SammyInMinecraft/Itemsaddder_ConfigGenerator">Branch Author Github</a>
+					<p>&emsp;</p>
 					<hr>
-					<p style="font-size: 20px;font-weight: 600;text-align: left;"> 更新日志</p>
-					<p style="font-size: 16px;text-align: left;">&emsp;V0.2 自动填充</p>
-					<p style="font-size: 16px;text-align: left;">&emsp;如果未启用后缀模式</p>
-					<p style="font-size: 16px;text-align: left;">&emsp;将自动获取ID、名称、原型</p>
-					<p style="font-size: 16px;text-align: left;">&emsp;现在，您可以拖入即生成</p>
-					<br>
-					<p style="font-size: 16px;text-align: left;">&emsp;V0.1 初次制作</p>
-					<p style="font-size: 16px;text-align: left;">&emsp;该网站因自己的需求而做</p>
-					<p style="font-size: 16px;text-align: left;">&emsp;请不要要求作者更新内容</p>
-					<p style="font-size: 16px;text-align: left;">&emsp;暂不提供使用教程</p>
-					<hr>
-					<p style="font-size: 20px;font-weight: 600;text-align: left;"> 免责声名</p>
-					<p style="font-size: 16px;text-align: left;">&emsp;该项目由海曦独立完成</p>
-					<p style="font-size: 16px;text-align: left;">&emsp;部分代码来源于网络</p>
-					<p style="font-size: 16px;text-align: left;">&emsp;您可以任意修改代码</p>
-					<p style="font-size: 16px;text-align: left;">&emsp;但您不得与他人说该网站是自己制作</p>
-					<p style="font-size: 16px;text-align: left;"></p>
-					<br>
-					<br>
+					<p style="font-size: 20px;font-weight: 800;"> &emsp;&emsp;免责声明&emsp;&emsp;&emsp;Disclaimers</p>
+					<p>部分代码来源于网络 已标明作者</p>
+					<p>可在此基础上修改源码 但请标明作者</p>
+					<p>禁止倒卖 完全免费开源</p>
 					<br>
 					<br>
 				</div>
@@ -97,7 +79,6 @@
 					<p style="font-size: 20px;font-weight: 800;">
 
 						<span class="editbutton" id="itemeditbutton" onclick="edit(2)">物品编辑</span>
-						&emsp;&emsp;
 						<span class="editbutton" id="mubaneditbutton" onclick="edit(1)">模板编辑</span>
 						<hr />
 				</div>
@@ -143,7 +124,8 @@
 			</div>
 
 			<link rel="stylesheet" type="text/css" href="css/new_file.css" />
-
+		</div>
+	</div>
 	</body>
 	<script src="js/2ditem.js" type="text/javascript" charset="utf-8"></script>
 

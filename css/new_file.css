@@ -16,15 +16,14 @@ html {
 #inputin {
 	width: 40%;
 	height: 15%;
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(88, 86, 87, 0.5);
 	margin-top: 65px;
-	border-radius: 10px;
-	border: 1px solid rgba(209, 213, 219, 0.3);
+	border-radius: 1px;
 	transition: 0.12s;
 }
 
 #inputin:hover{
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(88, 87, 86, 0.8);
 	transition: 0.12s;
 	transform: scale(1.05);
 }
@@ -40,7 +39,7 @@ html {
 	overflow: hidden;
 	position: absolute;
 	border-radius: 50px;
-	background-color: rgba(235, 235, 235, 1.0);
+	background-color: rgba(41, 36, 33, 0.8);
 	width: 80px;
 	height: 80px;
 
@@ -64,7 +63,7 @@ html {
 	transition: 0.3s;
 }
 #run:hover{
-	background-color: rgba(255, 255, 255, 1.0);
+	background-color: rgba(41, 36, 33, 0.8);
 }
 #out3div {
 	width: 100%;
@@ -107,8 +106,8 @@ html {
 }
 
 body {
-background-color: #8EC5FC;
-background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+background-color: #666666;
+background-image: linear-gradient(62deg, #666666 0%, #666666 100%);
 
 
 
@@ -139,7 +138,7 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 	margin: 0 auto;
 	width: 100%;
 	height: 10%;
-	background-color: rgba(236, 236, 236, 0.8);
+	background-color: rgba(128, 138, 135, 0.8);
 	backdrop-filter: blur(10px);
 	display: flex;
 	flex-wrap: wrap;
@@ -189,9 +188,9 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 	height: 70%;
 	backdrop-filter: blur(16px) saturate(180%);
 	-webkit-backdrop-filter: blur(16px) saturate(180%);
-	background-color: rgba(255, 255, 255, 0.75);
+	background-color: rgba(128, 138, 135, 0.5);
 	border-radius: 12px;
-	border: 1px solid rgba(209, 213, 219, 0.3);
+	border: 1px solid rgba(128, 138, 135, 0.3);
 	overflow: hidden;
 
 	display: flex;
@@ -216,11 +215,7 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 
 #fileinput {
 	width: 100%;
-	height: 40%;
-	background-color: rgba(255, 255, 255, 0.3);
-	border-radius: 12px;
-	border: 1px solid rgba(209, 213, 219, 0.3);
-	overflow: hidden;
+	height: 20%;
 	text-align: center;
 	transition: 0.25s;
 }
@@ -231,8 +226,8 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 
 #fileMutiply {
 	width: 100%;
-	height: 300px;
-	margin-top: -200px;
+	height: 160px;
+	margin-top: -100px;
 	left: 0;
 	opacity: 0;
 }
@@ -245,12 +240,8 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 
 #filelist {
 	width: 100%;
-	height: 70%;
-	background-color: rgba(255, 255, 255, 0.1);
-	border-radius: 12px;
-	border: 1px solid rgba(209, 213, 219, 0.3);
+	height: 60%;
 	text-align: center;
-	overflow: auto;
 
 }
 
@@ -321,7 +312,7 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 }
 
 #fileedit input {
-	background-color: rgba(0, 0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.2);
 	border: solid 1px gray;
 	border-radius: 5px;
 }
@@ -353,9 +344,7 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 .editbutton {
 	padding: 5px 10px 5px 10px;
 	-webkit-backdrop-filter: blur(16px) saturate(180%);
-	background-color: rgba(255, 255, 255, 0.1);
 	border-radius: 5px;
-	border: 1px solid rgba(209, 213, 219, 0.3);
 	overflow: hidden;
 	text-align: center;
 	font-size: 18px;
@@ -367,7 +356,7 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 }
 
 .editbutton:hover{
-	opacity: 0.5;
+	opacity: 0.2;
 }
 
 #fileeditpage {

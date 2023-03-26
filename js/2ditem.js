@@ -7,16 +7,16 @@ function edit(num) {
 		fileeditmove.style.transform = "translateX(-50%)"
 		itemedit_button.style.fontSize = "16px"
 		mubanedit_button.style.fontSize = "28px"
-		mubanedit_button.style.backgroundColor = "rgba(255, 255, 255, 0.8)"
-		itemedit_button.style.backgroundColor = "rgba(255, 255, 255, 0.3)"
+		mubanedit_button.style.backgroundColor = "rgba(88, 87, 87, 0.8)"
+		itemedit_button.style.backgroundColor = "rgba(88, 87, 87, 0.5)"
 	}
 	if (num == 2) {
 		fileeditmove.style.transform = "translateX(0%)"
 
 		itemedit_button.style.fontSize = "28px"
 		mubanedit_button.style.fontSize = "16px"
-		mubanedit_button.style.backgroundColor = "rgba(255, 255, 255, 0.3)"
-		itemedit_button.style.backgroundColor = "rgba(255, 255, 255, 0.8)"
+		mubanedit_button.style.backgroundColor = "rgba(88, 87, 87, 0.5)"
+		itemedit_button.style.backgroundColor = "rgba(88, 87, 87, 0.8)"
 	}
 }
 
