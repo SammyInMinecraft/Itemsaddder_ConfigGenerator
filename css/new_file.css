@@ -1,0 +1,378 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	        -webkit-user-select: none; 
+	            /* 兼容IE 10+ 和 Edge */
+	            -ms-user-select: none;
+	            /* 
+	                ⏹禁止用户选中的标准语法
+	            */
+	            user-select: none; 
+
+}
+
+#inputin {
+	width: 40%;
+	height: 15%;
+	background-color: rgba(255, 255, 255, 0.5);
+	margin-top: 65px;
+	border-radius: 10px;
+	border: 1px solid rgba(209, 213, 219, 0.3);
+	transition: 0.12s;
+}
+
+#inputin:hover{
+	background-color: rgba(255, 255, 255, 0.8);
+	transition: 0.12s;
+	transform: scale(1.05);
+}
+
+
+
+    #inputin:focus {
+	background-color: rgba(226, 255, 224, 0.8);
+}
+
+#run {
+	;
+	overflow: hidden;
+	position: absolute;
+	border-radius: 50px;
+	background-color: rgba(235, 235, 235, 1.0);
+	width: 80px;
+	height: 80px;
+
+	top: calc(100% - 100px);
+	left: calc(100% - 100px);
+	text-align: center;
+
+	transition: 1s;
+	z-index: 1000;
+	overflow: hidden;
+	transition: 0.5s;
+}
+#run > p{
+	transition: 0.2s;
+		line-height: 50px;
+		font-weight: 800;
+		font-size: ;
+}
+#run:hover > p{
+	transform: scale(1.2);
+	transition: 0.3s;
+}
+#run:hover{
+	background-color: rgba(255, 255, 255, 1.0);
+}
+#out3div {
+	width: 100%;
+	height: 83.5%;
+	overflow: hidden;
+}
+
+#out3div>textarea::-webkit-scrollbar {
+	width: 8px;
+}
+
+#out3div>textarea::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+#out3div>textarea::-webkit-scrollbar-track {
+	border-radius: 0;
+	background: rgba(0, 0, 0, 0.1);
+}
+
+
+
+#run2 {
+	;
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+}
+
+@font-face {
+	font-family: Minecraft;
+	src: url(https://file-1256953285.cos.ap-guangzhou.myqcloud.com/MinecraftFont.woff) format('woff')
+}
+
+* {
+	font-family: Minecraft;
+}
+
+body {
+background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+
+
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+#LOGO {
+	font-size: 24px;
+	height: 100%;
+	width: auto;
+	line-height: 70px;
+	justify-content: flex-start;
+	margin-left: 50px;
+}
+
+#NOW {
+	font-size: 24px;
+	height: 100%;
+	width: auto;
+	line-height: 70px;
+	justify-content: space-between;
+	margin-right: 50px;
+}
+
+#nav {
+	margin: 0 auto;
+	width: 100%;
+	height: 10%;
+	background-color: rgba(236, 236, 236, 0.8);
+	backdrop-filter: blur(10px);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#out_mode {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	height: 30px;
+	background-color: #d4d4d4;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.mode {
+	font-size: 8px;
+	height: 100%;
+	width: auto;
+	line-height: 33px;
+	justify-content: flex-start;
+	padding: 0 5px 0 5px;
+	transition: 0.25s;
+	display: flex;
+}
+
+.mode2 {
+	border-bottom: rgba(0, 0, 0, 0) solid 1px;
+	line-height: 30px;
+	text-align: right;
+	font-size: 8px;
+	height: 100%;
+	width: auto;
+	line-height: 33px;
+	justify-content: end;
+
+}
+
+.mode:hover {
+	background-color: #e6e6e6;
+}
+
+#ia2ditem {
+	margin: 5% auto;
+	width: 80%;
+	height: 70%;
+	backdrop-filter: blur(16px) saturate(180%);
+	-webkit-backdrop-filter: blur(16px) saturate(180%);
+	background-color: rgba(255, 255, 255, 0.75);
+	border-radius: 12px;
+	border: 1px solid rgba(209, 213, 219, 0.3);
+	overflow: hidden;
+
+	display: flex;
+	justify-content: flex-start;
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+#fileinput {
+	width: 100%;
+	height: 40%;
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 12px;
+	border: 1px solid rgba(209, 213, 219, 0.3);
+	overflow: hidden;
+	text-align: center;
+	transition: 0.25s;
+}
+
+#fileinput:hover{
+	opacity: 0.5;
+}
+
+#fileMutiply {
+	width: 100%;
+	height: 300px;
+	margin-top: -200px;
+	left: 0;
+	opacity: 0;
+}
+
+#fileinput p {
+	text-align: center;
+	position: relative;
+	top: -110%;
+}
+
+#filelist {
+	width: 100%;
+	height: 70%;
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 12px;
+	border: 1px solid rgba(209, 213, 219, 0.3);
+	text-align: center;
+	overflow: auto;
+
+}
+
+.filelistdiv {
+	width: 30%;
+	height: 100%;
+}
+
+
+
+
+#filelist td {
+	border-bottom: rgba(244, 249, 255, 1.0) solid 1px;
+	line-height: 30px;
+	text-align: left;
+
+
+}
+
+
+
+
+
+
+
+#filelist table {
+	width: 90%;
+	margin-left: 5%;
+}
+
+#filelist::-webkit-scrollbar {
+	width: 4px;
+}
+
+#filelist::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+#filelist::-webkit-scrollbar-track {
+	border-radius: 0;
+	background: rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+#fileedit {
+	width: 70%;
+	height: 100%;
+	border-radius: 12px;
+	text-align: center;
+
+}
+
+#fileedit td {
+	border-bottom: rgba(244, 249, 255, 1.0) solid 1px;
+	line-height: 30px;
+	text-align: left;
+
+
+}
+
+#fileedit table {
+	width: 90%;
+	margin-left: 5%;
+}
+
+#fileedit input {
+	background-color: rgba(0, 0, 0, 0);
+	border: solid 1px gray;
+	border-radius: 5px;
+}
+
+
+#fileeditpage::-webkit-scrollbar {
+	width: 4px;
+}
+
+#fileeditpage::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+#fileeditpage::-webkit-scrollbar-track {
+	border-radius: 0;
+	background: rgba(0, 0, 0, 0.1);
+}
+
+
+#filemubanpage td {
+	border-bottom: rgba(0, 0, 0, 0) solid 1px;
+	line-height: 30px;
+	text-align: left;
+
+
+}
+
+.editbutton {
+	padding: 5px 10px 5px 10px;
+	-webkit-backdrop-filter: blur(16px) saturate(180%);
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 5px;
+	border: 1px solid rgba(209, 213, 219, 0.3);
+	overflow: hidden;
+	text-align: center;
+	font-size: 18px;
+	line-height: 24px;
+	position: relative;
+	font-weight: 100;
+	transition: 0.12s;
+	
+}
+
+.editbutton:hover{
+	opacity: 0.5;
+}
+
+#fileeditpage {
+	transition: 1s;
+}
+.efn{
+	display: none;
+}
